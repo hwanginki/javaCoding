@@ -36,6 +36,7 @@ public class 단어뒤집기 {
 	}
 }
 
+// 방법2
 class 단어뒤집기2 {
 	public ArrayList<String> solution(int n, String[] str) {
 		ArrayList<String> answer = new ArrayList<>();
