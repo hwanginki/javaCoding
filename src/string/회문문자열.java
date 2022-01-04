@@ -36,13 +36,10 @@ public class 회문문자열 {
 // 방법_2
 class Main {
 	public String solution(String str) {
-		String answer = "YES";
-		str = str.toUpperCase();
-		int len = str.length();
-		for (int i = 0; i < len / 2; i++) {
-			if (str.charAt(i) != str.charAt(len - i - 1))
-				answer = "NO";
-		}
+		String answer = "NO";
+		String tmp = new StringBuilder(str).reverse().toString();
+		if (str.equalsIgnoreCase(tmp))
+			answer = "YES";
 		return answer;
 	}
 
