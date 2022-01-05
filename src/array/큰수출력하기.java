@@ -22,7 +22,7 @@ public class 큰수출력하기 {
 		return answer;
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {                            
 		큰수출력하기 T = new 큰수출력하기();
 		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
