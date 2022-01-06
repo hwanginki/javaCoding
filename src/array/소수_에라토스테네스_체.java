@@ -12,10 +12,10 @@ public class 소수_에라토스테네스_체 {
 	public int solution(int n) {
 		int cnt = 0;
 		int[] ch = new int[n + 1];
-		for (int i = 0; i <= n; i++) {
+		for (int i = 2; i <= n; i++) {
 			if (ch[i] == 0) {
 				cnt++;
-				for (int j = i; j <= n; j++) {
+				for (int j = i; j <= n; j = j + i) {
 					ch[j] = 1;
 				}
 			}
