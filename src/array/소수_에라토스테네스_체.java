@@ -8,7 +8,7 @@ import java.util.*;
  * 제한시간은 1초입니다.
  */
 public class 소수_에라토스테네스_체 {
-	
+
 	public int solution(int n) {
 		int cnt = 0;
 		int[] ch = new int[n + 1];
@@ -29,5 +29,5 @@ public class 소수_에라토스테네스_체 {
 		int n = kb.nextInt();
 		System.out.println(T.solution(n));
 	}
-	
+
 }
