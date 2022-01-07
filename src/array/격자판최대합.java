@@ -40,7 +40,7 @@ public class 격자판최대합 {
 			sum1 = sum2 = 0;
 			for (int j = 0; j < n; j++) {
 				sum1 += arr[i][j];
-				sum2 += arr[i][j];
+				sum2 += arr[j][i];
 			}
 			answer = Math.max(answer, sum1);
 			answer = Math.max(answer, sum2);
