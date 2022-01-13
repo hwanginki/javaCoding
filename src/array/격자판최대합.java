@@ -39,16 +39,16 @@ public class 격자판최대합 {
 		for (int i = 0; i < n; i++) {
 			sum1 = sum2 = 0;
 			for (int j = 0; j < n; j++) {
-				sum1 += arr[i][j];
-				sum2 += arr[j][i];
+				sum1 += arr[i][j]; // 가로선
+				sum2 += arr[j][i]; // 세로선
 			}
 			answer = Math.max(answer, sum1);
 			answer = Math.max(answer, sum2);
 		}
 		sum1 = sum2 = 0;
 		for (int i = 0; i < n; i++) {
-			sum1 += arr[i][i];
-			sum2 += arr[i][n - i - 1];
+			sum1 += arr[i][i]; // 대각선
+			sum2 += arr[i][n - i - 1]; // 반대로 대각선
 		}
 		answer = Math.max(answer, sum1);
 		answer = Math.max(answer, sum2);
