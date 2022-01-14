@@ -26,18 +26,15 @@ A, B 두 개의 집합이 주어지면 두 집합의 공통 원소를 추출하�
  */
 public class 공통원소구하기 {
 	public ArrayList<Integer> solution(int n, int m, int[] a, int[] b) {
-		ArrayList<Integer> answer = new ArrayList<>();
-
 		Arrays.sort(a);
 		Arrays.sort(b);
+
+		ArrayList<Integer> answer = new ArrayList<>();
 
 		int p1 = 0, p2 = 0;
 
 		while (p1 < n && p2 < m) {
 			if (a[p1] == b[p2]) {
-				answer.add(a[p1++]);
-				p2++;
-			} else if (a[p1] == b[p2]) {
 				answer.add(a[p1++]);
 				p2++;
 			} else {
@@ -48,9 +45,21 @@ public class 공통원소구하기 {
 				}
 			}
 		}
+
+		// Arrayslit.retainAll()을 이용한 교집합 메서드 사용하기
+		/*
+		 * for (int i : a) { answer.add(i); }
+		 * 
+		 * ArrayList<Integer> answer_b = new ArrayList<>();
+		 * 
+		 * for (int j : b) { answer_b.add(j); }
+		 * 
+		 * answer.retainAll(answer_b);
+		 */
+
 		return answer;
 	}
-	
+
 	public static void main(String[] args) {
 		공통원소구하기 T = new 공통원소구하기();
 		Scanner kb = new Scanner(System.in);
