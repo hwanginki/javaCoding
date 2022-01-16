@@ -45,4 +45,7 @@ for (int i = s.length() - 1; i >= 0; i--)
 
 18. retainAll() : Arraylist의 교집합 메서드
 
+19. if (n % cnt == 0) { answer++; } : 이 로직은 이해하고 보충할 것 또는 /의 차이점을 배우기!
+
+20.  
 */
