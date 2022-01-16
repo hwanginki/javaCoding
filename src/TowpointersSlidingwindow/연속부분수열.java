@@ -39,7 +39,7 @@ public class 연속부분수열 {
 					answer++;
 				}
 			}
-		}
+		} 
 		return answer;
 	}
 	
