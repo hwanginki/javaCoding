@@ -55,4 +55,52 @@ package codingTestMethodStudy;
  * 
  * // 결과 : {A=2, B=1, C=1} } }
  * 
+ * 21. Integer.MIN_VALUE : 
+ * 
+ * 22. HashMap의 keySet() : Key의 값만 출력
+ * 
+ * 23. HashMap의 entrySet() : Key와 Value의 값 모두 출력
+ * 
+ * 24. Iterator는 자바의 컬렉션 프레임워크에서 컬렉션에 저장되어 있는 요소들을 읽는다
+ * 
+ * 25. HashMap : 1. 배열과 연결이 결합된 형태 2. Hashing 기법을 사용하기 때문에 많은 양의 데이터가 저장할 때 유용함.
+ * 3. 검색에 최고 성능 가진다. 4. 추가/삭제/검색/접근성이 모두 뛰어남
+ * 4. 순서가 유지 보장이 없음.(다만, 순서 유지가 필요하다면 LinkedHashMap 가능)
+ * 
+ * Map<String, String> map = new HashMap<String, String>();
+        map.put("key01", "value01");
+        map.put("key02", "value02");
+        map.put("key03", "value03");
+        map.put("key04", "value04");
+        map.put("key05", "value05");
+ 
+        // 방법 01 : entrySet()
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            System.out.println("[key]:" + entry.getKey() + ", [value]:" + entry.getValue());
+        }
+        
+        // 방법 02 : keySet()
+        for (String key : map.keySet()) {
+            String value = map.get(key);
+            System.out.println("[key]:" + key + ", [value]:" + value);
+        }
+    
+        // 방법 03 : entrySet().iterator()
+        Iterator<Map.Entry<String, String>> iteratorE = map.entrySet().iterator();
+        while (iteratorE.hasNext()) {
+            Map.Entry<String, String> entry = (Map.Entry<String, String>) iteratorE.next();
+            String key = entry.getKey();
+            String value = entry.getValue();
+            System.out.println("[key]:" + key + ", [value]:" + value);
+        }
+    
+        // 방법 04 : keySet().iterator()
+        Iterator<String> iteratorK = map.keySet().iterator();
+        while (iteratorK.hasNext()) {
+            String key = iteratorK.next();
+            String value = map.get(key);
+            System.out.println("[key]:" + key + ", [value]:" + value);
+        }
+ * 
+ * 
  */
