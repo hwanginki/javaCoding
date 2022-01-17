@@ -27,12 +27,15 @@ public class 학급회장_해쉬 {
 	public char solution(int n, String s) {
 		char answer = ' ';
 		HashMap<Character, Integer> map = new HashMap<>();
+		// toCharArray() 사용해 문자열을 배열으로 요소 만들어서 map의 put에 각 요소 저장한다.
 		for (char x : s.toCharArray()) {
+			// getOrDefault : 찾는 키가 존재한다면 찾는 키의 값을 반환하고 없다면 기본 값을 반환하는메서드
+			// public V getOrDefault(Object key, V defaultValue)
 			map.put(x, map.getOrDefault(x, 0) + 1);
 		}
 
-		int max = Integer.MIN_VALUE;
-		for (char key : map.keySet()) {
+		int max = Integer.MIN_VALUE; // -2147483648
+		for (char key : map.keySet()) { // keySet() : key의 값만 출력하는 메서드
 			if (map.get(key) > max) {
 				max = map.get(key);
 				answer = key;
