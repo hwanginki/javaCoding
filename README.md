@@ -46,9 +46,7 @@ for (int i = s.length() - 1; i >= 0; i--)
 
 Collection
 
-https://user-images.githubusercontent.com/60806047/151949808-8d8efd4b-adc9-4bde-bdf2-1712bc0b763b.JPG
-
-https://github.com/hwanginki/javaCoding/issues/1#issue-1120466995
+![java_Collection](https://user-images.githubusercontent.com/60806047/151949808-8d8efd4b-adc9-4bde-bdf2-1712bc0b763b.JPG)
 
 19. LinkedList
 
