@@ -46,7 +46,10 @@ for (int i = s.length() - 1; i >= 0; i--)
 
 Collection
 
+https://user-images.githubusercontent.com/60806047/151949808-8d8efd4b-adc9-4bde-bdf2-1712bc0b763b.JPG
+
 19. LinkedList
+
 
 19. Queue 개념 확실히 알 것~!
 - 큐(Queue)는 리스트의 한쪽에서는 삽입 작업이 이루어지고 다른 한쪽에서는 삭제 작업이 이루어지도록 구성한 자료 구조이다.
