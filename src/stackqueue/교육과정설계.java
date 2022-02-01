@@ -37,7 +37,8 @@ public class 교육과정설계 {
 		for (char x : need.toCharArray())
 			Q.offer(x);
 		for (char x : plan.toCharArray()) {
-			if (Q.contains(x)) {
+			if (Q.contains(x)) { // contains : boolean contains(Object o);
+				// contains() : 대상 문자열에 특정 문자열이 포함되어 있는지 확인하는 메서드
 				if (x != Q.poll())
 					return "NO";
 			}
