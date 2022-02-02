@@ -27,6 +27,8 @@ public class 선택정렬 {
 			int idx = i;
 			
 			for (int j = i + 1; j < n; j++) {
+				// < : 오름차순 : 1,2,3,4,5
+				// > : 내림차순 : 5,4,3,2,1
 				if (arr[j] < arr[idx])
 					idx = j;
 			}
