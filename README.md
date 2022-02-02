@@ -44,3 +44,15 @@ for (int i = s.length() - 1; i >= 0; i--)
 
 18. retainAll() : Arraylist의 교집합 메서드
 
+Collection
+
+![java_Collection](https://user-images.githubusercontent.com/60806047/151949808-8d8efd4b-adc9-4bde-bdf2-1712bc0b763b.JPG)
+
+19. LinkedList
+
+
+19. Queue 개념 확실히 알 것~!
+- 큐(Queue)는 리스트의 한쪽에서는 삽입 작업이 이루어지고 다른 한쪽에서는 삭제 작업이 이루어지도록 구성한 자료 구조이다.
+- 큐는 가장 먼저 삽입된 자료가 가장 먼저 삭제되는 선입선출(FIFO; First In First Out) 방식으로 처리한다.
+- 큐는 시작과 끝을 표시하는 두 개의 포인터가 있다.
+- 큐는 운영체제의 작업 스케줄링에 사용한다.															
