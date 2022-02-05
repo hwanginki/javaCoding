@@ -42,7 +42,7 @@ System.out.println(zz.getClass().getName());
 
 for (int i = s.length() - 1; i >= 0; i--)
 
-18. retainAll() : Arraylist의 교집합 메서드
+18. boolean retainAll(Collection<?> c) : Arraylist의 교집합 메서드
 
 Collection
 
