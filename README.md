@@ -56,3 +56,6 @@ Collection
 - 큐는 가장 먼저 삽입된 자료가 가장 먼저 삭제되는 선입선출(FIFO; First In First Out) 방식으로 처리한다.
 - 큐는 시작과 끝을 표시하는 두 개의 포인터가 있다.
 - 큐는 운영체제의 작업 스케줄링에 사용한다.															
+
+20. 배열[]의 clone() : protected native Object clone() throws CloneNotSupportedException;
+
