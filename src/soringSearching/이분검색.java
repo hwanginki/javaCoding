@@ -31,7 +31,7 @@ public class 이분검색 {
 			if (arr[mid] == m) {
 				answer = mid + 1;
 				break;
-			}
+			} 
 			if (arr[mid] > m)
 				rt = mid - 1;
 			else
