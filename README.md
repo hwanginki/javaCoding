@@ -59,3 +59,5 @@ Collection
 
 20. 배열[]의 clone() : protected native Object clone() throws CloneNotSupportedException;
 
+21. Arrays.stream(arr).max().getAsInt()
+
