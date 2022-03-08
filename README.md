@@ -61,7 +61,7 @@ Collection
 
 21. Arrays.stream(arr).max().getAsInt()
 
-22. Arrays.sort(arr, Collections.reverseOrder());
+22. Arrays.sort(arr, Collections.reverseOrder()) : 배열을 내림차순으로 정렬하는 메서드
 
 # 좋은 교육 사이트
 
