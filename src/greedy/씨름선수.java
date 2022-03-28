@@ -20,7 +20,8 @@ class Body implements Comparable<Body> {
 public class 씨름선수 {
 	public int solution(ArrayList<Body> arr, int n) {
 		int cnt = 0;
-		Collections.sort(arr);
+		Collections.sort(arr); // Collections.sort()
+		// https://wjheo.tistory.com/entry/Java-%EC%A0%95%EB%A0%AC%EB%B0%A9%EB%B2%95-Collectionssort
 		int max = Integer.MIN_VALUE;
 		for (Body ob : arr) {
 			if (ob.w > max) {
