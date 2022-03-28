@@ -63,6 +63,7 @@ Collection
 
 22. Arrays.sort(arr, Collections.reverseOrder()) : 배열을 내림차순으로 정렬하는 메서드
 
+22. Collections.sort(Object o)
 Character
 - boolean isUpperCase(char ch) : 대문자 판단
 - boolean isLowerCase(char ch) : 소문자 판단
