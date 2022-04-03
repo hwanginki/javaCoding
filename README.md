@@ -76,6 +76,8 @@ Character
 // https://coding-factory.tistory.com/734
 - 천단위 메서드, BigInteger클래스 활용하는 메서드 
 
+25. 완전제곱수 등의 java용 Math 표준 라이브러리 알아보기
+https://mizzo-dev.tistory.com/entry/baekjoon1977
 
 # 좋은 교육 사이트
 
