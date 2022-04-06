@@ -79,6 +79,8 @@ Character
 25. 완전제곱수 등의 java용 Math 표준 라이브러리 알아보기
 https://mizzo-dev.tistory.com/entry/baekjoon1977
 
+26. Char형 문자를 int형으로 변환하는 메서드 : Character.getNumericValue(ch);
+
 # 좋은 교육 사이트
 
 https://www.baeldung.com/java-depth-first-search
