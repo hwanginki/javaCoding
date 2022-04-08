@@ -68,6 +68,19 @@ Character
 - boolean isUpperCase(char ch) : 대문자 판단
 - boolean isLowerCase(char ch) : 소문자 판단
 
+23. https://coding-factory.tistory.com/534
+- indexOf() ,contains(), matches()의 메소드의 사용용도 : 문자열에 특정 문자(문자열)를 포함해서 찾기
+
+24. 
+// https://godog.tistory.com/entry/Java-DecimalFormat-%EC%B2%9C%EB%8B%A8%EC%9C%84%EB%A7%88%EB%8B%A4-%EC%89%BC%ED%91%9C-%EC%9E%85%EB%A0%A5
+// https://coding-factory.tistory.com/734
+- 천단위 메서드, BigInteger클래스 활용하는 메서드 
+
+25. 완전제곱수 등의 java용 Math 표준 라이브러리 알아보기
+https://mizzo-dev.tistory.com/entry/baekjoon1977
+
+26. Char형 문자를 int형으로 변환하는 메서드 : Character.getNumericValue(ch);
+
 # 좋은 교육 사이트
 
 https://www.baeldung.com/java-depth-first-search
