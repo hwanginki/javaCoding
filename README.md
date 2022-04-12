@@ -81,6 +81,18 @@ https://mizzo-dev.tistory.com/entry/baekjoon1977
 
 26. Char형 문자를 int형으로 변환하는 메서드 : Character.getNumericValue(ch);
 
+27. DFS : Depth First Search(깊이 우선 탐색)
+- 완벽히 탐색, 재귀함수나 스택으로 이용해 사용
+
+장점
+- 단지 현 경로상의 노드만을 기억하면 되므로 저장공간의 수요가 비교적 적다.
+- 목표노드가 깊은 단계에 있을 경우 해를 빨리 구할 수 있다.
+
+단점
+  - 해가 없는 경로에 깊이 빠질 가능성이 있다. 따라서 실제의 경우 미리 지정한 임의의 깊이까지만 탐색하고 목표노드를 발경하지 못하면 다음 경로를 따라 탐색하는 방법이 유용할 수도 있다.
+
+28.
+
 # 좋은 교육 사이트
 
 https://www.baeldung.com/java-depth-first-search
